@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prokarkas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;0,900;1,300&display=swap" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+  <!-- <link rel="stylesheet" href="css/swiper-bundle.min.css" /> -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <div class="header__left">
+            <a class="header__logo" href="#">
+              <img src="images/logo.png" alt="">
+            </a>
+            <p class="header__descr">
+              Производство <br>
+              в Санкт-Петербурге
+            </p>
+          </div>
+          <div class="header__right">
+            <a class="header__phone" href="tel:+78126009498">8 (812) 600-94-98 </a>
+            <a class="header__phone-img" href="tel:+78126009498"><img src="images/phone-img.svg" alt=""></a>
+            <button id="header__btn" class="header__btn">Обратный звонок</button>
+
+            <div id="modal" class="modal">
+              <div class="modal-window">
+                <button id="btn-close" class="btn-close">
+                  <img src="images/close.svg" alt="">
+                </button>
+                <h3 class="modal__title">Перезвоните мне</h3>
+                <form class="form modal__form" action="">
+                  <div>
+                    <input class="form__input modal__form-input" type="user_name" placeholder="Ваше имя">
+                  </div>
+                  <div>
+                    <input class="form__input modal__form-input" type="tel" placeholder="Контактный телефон">
+                  </div>
+                  <div>
+                    <input class="form__input modal__form-input" type="text" placeholder="Что вам интересно?">
+                  </div>
+                  <button id="modal__form-btn" class="form__btn modal__form-btn" type="submit">Отправить</button>
+                </form>
+              </div>
+            </div>
+
+            <div id="modal-next" class="modal-next">
+              <div class="modal-next__window">
+                <button id="btn-close" class="btn-close">
+                  <img src="images/close.svg" alt="">
+                </button>
+                <h3 class="modal-next__title">Спасибо!</h3>
+                <p class="modal-next__text">Мы уже получили сообщение
+                  и свяжемся с вами в ближайшее время</p>
+                <p class="modal-next__subtitle">Мы работаем: Пн – Пт с 10:00 – 18:00</p>
+              </div>
+            </div>
+
+          </div>
+
+
+        </div>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__list-item sub-menu">
+              О компании <img class="sub-menu__img" src="images/arrow.svg" alt=""><img class="sub-menu__img--black" src="images/arrow-2.svg" alt="">
+              <ul class="sub-menu__list">
+                <li class="sub-menu__list-item">
+                  <a href="#" class="sub-menu__list-link">Портфолио</a>
+                </li>
+                <li class="sub-menu__list-item">
+                  <a href="#" class="sub-menu__list-link">Статьи</a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu__list-item menu__list-item__pt">
+              <a class="menu__list-link" href="#">Двутавровые<br>
+                балки</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">Стропильные<br> фермы</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">Деревянный<br> каркас</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">Контакты</a>
+            </li>
+          </ul>
+          <div class="header__burger">
+            <span></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="thanks">
+        <div class="container">
+          <h5 class="title thanks__title">Спасибо!</h5>
+          <p class="thanks__text">
+            Мы уже получили сообщение
+            и свяжемся с вами в ближайшее время
+          </p>
+          <p class="thanks__descr">
+            Мы работаем: Пн – Пт с 10:00 – 18:00
+          </p>
+          <a class="btn thanks__btn" href="#">На главную</a>
+        </div>
+      </section>
+    </main>
+  </div>
+
+
+  <!-- <script src="js/swiper-bundle.min.js"></script> -->
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
